@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
     {
         id: 1,
+        title: "Portfolio App",
+        description: "Portfolio App with Next.js",
+        image: "portfolio-app.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/9murat/next-portfolio-project",
+        previewUrl: "/",
+    },
+    {
+        id: 2,
         title: "E-commerce App",
         description: "E-commerce App With React",
         image: "/e-commerce-2.png",
@@ -15,7 +24,7 @@ const projectsData = [
         previewUrl: "/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Blog Post App",
         description: "Blog Post App With React",
         image: "/blog-post-2.webp",
@@ -24,7 +33,7 @@ const projectsData = [
         previewUrl: "/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Money spending App",
         description: "Money spending App",
         image: "/spend-money-2.jpg",
@@ -32,6 +41,7 @@ const projectsData = [
         gitUrl: "https://github.com/9murat/money-spending-app",
         previewUrl: "/",
     },
+
 
 ];
 
