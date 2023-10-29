@@ -98,7 +98,7 @@ const AboutSection = () => {
                 <Image src='/front-end-developer.png' alt='front-end-developer image' width={500} height={500} />
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
                     <h2 className='text-4xl font-bold text-white mb-4 '>About Me</h2>
-                    <p className='text-base lg:text-lg '> I'm Murat Öncel, 24 years old. I know programming language JavaScript (React.js, Next.js ). I aim to constantly improve myself to adapt to new technologies and best practices. I developed applications such as e-commerce site, to-do list, money spending application and LinkedIn-like blog post sharing application with the React library of the Javascript programming language.</p>
+                    <p className='text-base lg:text-lg '> I`&apos;`m Murat Öncel, 24 years old. I know programming language JavaScript (React.js, Next.js ). I aim to constantly improve myself to adapt to new technologies and best practices. I developed applications such as e-commerce site, to-do list, money spending application and LinkedIn-like blog post sharing application with the React library of the Javascript programming language.</p>
 
                     <div className='flex flex-row justify-start  mt-8'>
                         <TabButton
