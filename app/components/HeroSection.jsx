@@ -8,7 +8,7 @@ import Link from 'next/link';
 const HeroSection = () => {
     return (
         <section className="lg:py-16">
-            <div className="grid grid-cols-1 sm:grid-cols-12">
+            <div className="grid grid-cols-1 sm:grid-cols-12 sm:gap-12">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -39,11 +39,6 @@ const HeroSection = () => {
                             repeat={Infinity}
                         />
                     </h1>
-                    <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Incidunt voluptates rerum
-                        reprehenderit corrupti, explicabo velit quam vero officiis minima
-                        facere.</p>
                     <div>
                         <Link
                             href='/#contact'
@@ -51,11 +46,12 @@ const HeroSection = () => {
                         >Hire Me
                         </Link>
                         <Link
-                            href="/"
+                            href="/pdf"
+                            target='_blank'
                             className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
                         >
                             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                                Download CV
+                                See Cv
                             </span>
                         </Link>
                     </div>
@@ -66,13 +62,13 @@ const HeroSection = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                     className='col-span-4 place-self-center mt-4 lg:mt-0 '>
-                    <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative'>
+                    <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative '>
                         <Image
-                            className='rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2  '
+                            className='rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 md:w-80 '
                             src='/user.jpg'
                             alt='User Image'
-                            width={200}
-                            height={200}
+                            width={150}
+                            height={150}
                         />
                     </div>
                 </motion.div>
